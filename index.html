@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buyker</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <header class="header">
+
+        <!-- Logo -->
+        <a href="#" class="logo">
+            <h2 class="logo-title">Buy<span>ker</span></h2>
+        </a>
+
+        <div class="searchFilter">
+            <div class="search">
+                <input type="text" class="search-input">
+                <button class="btn btn--search">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="filter">
+                <button class="btn btn--filter">
+                    <i class="fas fa-filter"></i>
+                </button>
+            </div>
+        </div>  
+    </header>
+
+    <main class="main">
+
+        <div class="categories">
+            <button class="btn">X-Country</button>
+            <button class="btn">Downhill</button>
+            <button class="btn">Electric</button>
+        </div>
+
+        <!-- Store -->
+        <div class="store">
+
+            <!-- Gallery -->
+            <div class="gallery">
+                
+                <!-- Gallery items rendered here -->
+
+            </div>
+
+            <!-- Shopping cart -->
+            <div class="cart">
+
+                <div class="cart-header">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Shopping Cart</span>
+                    <span class="cart-header-items">0</span>
+                </div>
+                
+                <div class="cart-body">
+                    <div class="cart-listHeader">
+                        <span>Item</span>
+                        <span>Unit price</span>
+                        <span>Units</span>
+                    </div>
+                    <ul class="cart-list">
+                           <!-- Render cart items here -->
+                    </ul>
+
+                </div>
+
+                <div class="cart-footer">
+                    <p class="cart-total">Total: <span>£ 0.00</span></p>
+                    <button class="btn btn--primary btn--checkout">Proceed to checkout</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Crafted with <span class="fas fa-heart"></span> by <a href="">Pedro Martins</a></p>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>

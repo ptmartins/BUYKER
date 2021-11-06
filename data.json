@@ -1,0 +1,42 @@
+ [
+    {
+        "id": 1,
+        "imgSrc": "/images/products/1.jpeg",
+        "brand": "Specialized",
+        "model": "Stumpjumper Comp Alloy 29.0",
+        "price": "3100",
+        "stock": 3
+    },
+    {
+        "id": 2,
+        "imgSrc": "/images/products/2.jpeg",
+        "brand": "Specialized",
+        "model": "Stumpjumper Comp Alloy 29.0",
+        "price": "2400",
+        "stock": 5
+    },
+    {
+        "id": 3,
+        "imgSrc": "/images/products/3.jpeg",
+        "brand": "Specialized",
+        "model": "Stumpjumper Comp Alloy 29.0",
+        "price": "2790",
+        "stock": 8
+    },
+    {
+        "id": 4,
+        "imgSrc": "/images/products/4.jpeg",
+        "brand": "Specialized",
+        "model": "Stumpjumper Comp Alloy 29.0",
+        "price": "1980",
+        "stock": 12
+    },
+    {
+        "id": 5,
+        "imgSrc": "/images/products/5.jpeg",
+        "brand": "Specialized",
+        "model": "Stumpjumper Comp Alloy 29.0",
+        "price": "1400",
+        "stock": 10
+    }
+]
